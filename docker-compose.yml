@@ -7,6 +7,6 @@ services:
     volumes:
       - ./data:/var/lib/postgresql
     environment:
-      POSTGRES_DB: test
-      POSTGRES_USER: test
-      POSTGRES_PASSWORD: password
+      -POSTGRES_DB: test
+      -POSTGRES_USER: test
+      -POSTGRES_PASSWORD: password
